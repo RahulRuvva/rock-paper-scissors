@@ -4,8 +4,8 @@ import { useEffect, useState } from 'react';
 
 function App() {
 
-  const [userChoice, setUserChoice] = useState('a')
-  const [computerChoice, setComputerChoice] = useState('b')
+  const [userChoice, setUserChoice] = useState('RockPaperScisscors')
+  const [computerChoice, setComputerChoice] = useState('RockPaperScisscors')
   const [result, setResult] = useState(null);
 
   const choices = ['rock', 'paper', 'scissors']
